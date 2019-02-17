@@ -36,6 +36,7 @@ for i in ys_sorted:
         least_y = i
 
 ys_sorted_modified = list(set(ys_sorted_modified))
+ys_sorted_modified = sorted(ys_sorted_modified)
 
 sorted_rects = []
 
